@@ -1,0 +1,43 @@
+
+--- Dynamic Array ---
+Appended 0 | Size: 1, Capacity: 2
+Appended 1 | Size: 2, Capacity: 2
+Resizing from 2 to 4
+Appended 2 | Size: 3, Capacity: 4
+Appended 3 | Size: 4, Capacity: 4
+Resizing from 4 to 8
+Appended 4 | Size: 5, Capacity: 8
+Appended 5 | Size: 6, Capacity: 8
+Appended 6 | Size: 7, Capacity: 8
+Appended 7 | Size: 8, Capacity: 8
+Resizing from 8 to 16
+Appended 8 | Size: 9, Capacity: 16
+Appended 9 | Size: 10, Capacity: 16
+Array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Popped 9 | Size: 9
+Popped 8 | Size: 8
+Popped 7 | Size: 7
+Array: [0, 1, 2, 3, 4, 5, 6]
+
+--- Singly Linked List ---
+SLL: [2, 3, 4, 5]
+SLL: [2, 4, 5]
+
+--- Doubly Linked List ---
+DLL: [1, 2, 3, 4, 5]
+DLL: [1, 2, 3, 99, 4, 5]
+DLL: [1, 3, 99, 4, 5]
+
+--- Stack ---
+Peek: 20
+Pop: 20
+
+--- Queue ---
+Front: 1
+Dequeue: 1
+
+--- Parentheses Checker ---
+([]) -> True
+([)] -> False
+((( -> False
+ -> True
